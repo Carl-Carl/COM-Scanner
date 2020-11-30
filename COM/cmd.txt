@@ -1,0 +1,3 @@
+gcc -IE:\jdk-15\include -IE:\jdk-15\include\win32 JNI_ComReader.c -o ComReader.dll
+javac src/jni/ComReader.java -h jni_ComReader.h
+g++ JNI_ComReader.cpp -o ComReader.dll
