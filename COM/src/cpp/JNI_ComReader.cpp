@@ -1,6 +1,6 @@
 #include "JNI_ComReader.h"
 
-JNIEXPORT jint JNICALL Java_JNI_ComReader_sum(JNIEnv * Env, jobject obj, jint a, jint b) {
+JNIEXPORT jdouble JNICALL Java_jni_ComReader_sum(JNIEnv * env, jobject obj, jdouble a, jdouble b) {
     return a + b;
 }
 

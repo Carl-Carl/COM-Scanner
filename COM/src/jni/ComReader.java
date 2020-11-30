@@ -2,7 +2,7 @@ package jni;
 
 public class ComReader {
 
-    public native int sum(int a, int b);
+    public native double sum(double a, double b);
 
     public static void main(String[] args) {
 
